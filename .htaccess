@@ -1,0 +1,4 @@
+RewriteEngine On
+# Deny access to hidden files
+RewriteCond %{REQUEST_URI} \.git
+RewriteRule . - [F,L]

@@ -1,0 +1,6 @@
+# Deny access to SQL files
+<FilesMatch "\.(sql|Sql|SQL)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+Options -Indexes

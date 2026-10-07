@@ -1,0 +1,7 @@
+<?php
+/**
+ * Placeholder for no-image default
+ */
+// This file intentionally left blank - used as fallback
+header('Content-Type: text/plain');
+echo '';
